@@ -13,14 +13,16 @@ Unfortunately, The module has been tested using Windows Platform only.
 
 # Dependencies 
 Already taken care-of via vagrant_provision.sh
-* puppetlabs/stdlib
-* puppetlabs/apt
-* puppetlabs/concat
-* stahnma/epel
 * puppetlabs-ruby
 * dwerder-redis
 * jfryman-nginx
 * puppetlabs-postgresql
+
+Required by main modules (from puppetforge)
+* puppetlabs/stdlib
+* puppetlabs/apt
+* puppetlabs/concat
+* stahnma/epel
 * puppetlabs-vcsrepo
 * garethr-docker
 
