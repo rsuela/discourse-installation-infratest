@@ -37,6 +37,7 @@ Already taken care-of via vagrant_provision.sh
 ```
 
 # Access Discourse
+The machine is port-forward to 8888. You need to open your browser and access it with URL below.
 ```browser
 http://127.0.0.1:8888
 ```
