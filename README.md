@@ -36,6 +36,11 @@ Already taken care-of via vagrant_provision.sh
 > vagrant up
 ```
 
+# Access Discourse
+```browser
+http://127.0.0.1:8888
+```
+
 # Troubleshooting
 - One of the issues that i keep getting is when there is a problem while downloading dependencies from Ubuntu.
   solution: if the machine is already created: you can run by using 'vagrant provision' or destroy and re-run (vagrant destroy then vagrant up)

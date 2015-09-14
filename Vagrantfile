@@ -4,6 +4,7 @@
 Vagrant.configure(2) do |config|
 
   config.vm.box = "ubuntu/trusty64"
+  config.vm.box_url = "https://vagrantcloud.com/ubuntu/boxes/trusty64"
   config.vm.network "forwarded_port", guest: 80, host: 8888
 
   config.vm.provider "virtualbox" do |vb|
